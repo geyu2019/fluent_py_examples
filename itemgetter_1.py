@@ -26,3 +26,4 @@ for city in sorted(metro_data, key=itemgetter(1)):
     cc_name = itemgetter(1, 0)
     for city in metro_data:
         print(cc_name(city))
+
